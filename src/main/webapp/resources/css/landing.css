@@ -1,0 +1,63 @@
+
+/* universal styles */
+
+body {
+  /* background: rgb(36,26,112);
+background: linear-gradient(156deg, rgba(36,26,112,1) 10%, rgba(34,25,108,1) 25%, rgba(27,16,95,1) 45%, rgba(27,16,95,1) 72%, rgba(27,16,95,1) 97%, rgba(24,13,91,1) 97%); */
+ background-color: #180d5b;
+ color: #f8f8ff
+}
+
+.ghost {
+  color: #f8f8ff
+}
+
+/* .hero-img {
+	max-width: 80% 
+	margin: auto; 
+} */
+
+/* nav stuff */
+.nav-dark {
+  font-size: larger; 
+  background-color: rgb(58, 41, 174);
+}
+
+.nav-brand-lg {
+  margin: 0 40px 0 10px; 
+  font-size: 40px
+}
+
+/* signin form */
+
+.login-form {
+  max-width: 90%;
+  margin: auto;
+}
+
+.login-btn {
+  min-width: 150px;
+  background-color: #4f4695;
+}
+
+
+/* web constraints */
+
+@media all and (min-width: 600px) {
+  .nav-max {
+    max-width: 900px;
+    margin: auto
+  }
+  .hero-img{
+    max-width: 500px;
+    margin: auto;
+  }
+  .login-form {
+    max-width: 500px;
+    margin-bottom: 200px;
+    border: 1px solid #514c84;
+    border-radius: 15px;
+    box-shadow: 5px 10px 18px #29245b;
+    padding: 30px;
+  }
+}

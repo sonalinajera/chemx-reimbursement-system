@@ -1,0 +1,13 @@
+form input.error {
+    border-color: #e74c3c
+}
+
+form input.success {
+    border-color: #c3e6cb
+} 
+
+#newReimbursementForm {
+	max-width: 90%;
+	margin:	30px auto;
+	
+}

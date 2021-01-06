@@ -1,0 +1,14 @@
+2020-12-28 07:13:58 INFO  LoginController:57 - INFO: User logged in: Username: youngmillie
+2020-12-28 07:15:28 INFO  LoginController:57 - INFO: User logged in: Username: youngmillie
+2020-12-28 07:16:28 INFO  LoginController:57 - INFO: User logged in: Username: youngmillie
+2020-12-28 07:36:26 INFO  LoginController:61 - INFO: User logged in: Username: wabuffet
+2020-12-28 07:36:27 INFO  ReimbursementController:175 - Grabbed all pending reimb
+2020-12-28 08:02:45 INFO  LoginController:61 - INFO: User logged in: Username: wabuffet
+2020-12-28 08:02:46 INFO  ReimbursementController:175 - Grabbed all pending reimb
+2020-12-28 08:11:04 INFO  LoginController:69 - failed login attempt with username: 
+2020-12-28 08:16:41 INFO  LoginController:69 - failed login attempt with username: wabuffet
+2020-12-28 08:16:54 INFO  LoginController:61 - INFO: User logged in: Username: wabuffet
+2020-12-28 08:16:56 INFO  ReimbursementController:175 - Grabbed all pending reimb
+2020-12-28 08:17:17 INFO  ReimbursementController:175 - Grabbed all pending reimb
+2020-12-28 08:17:40 INFO  ReimbursementController:175 - Grabbed all pending reimb
+2020-12-28 08:18:28 INFO  LoginController:57 - INFO: User logged in: Username: youngmillie

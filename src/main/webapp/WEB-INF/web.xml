@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>ChemX</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <!-- FORWARDING MASTER SERVLET CONFIGURATIONS -->
+  <servlet>
+    <display-name>MasterServlet</display-name>
+    <servlet-name>MasterServlet</servlet-name>
+    <servlet-class>com.chemx.servlet.MasterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MasterServlet</servlet-name>
+    <url-pattern>/forwarding/*</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <display-name>AJAXServlet</display-name>
+    <servlet-name>AJAXServlet</servlet-name>
+    <servlet-class>com.chemx.servlet.AJAXServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AJAXServlet</servlet-name>
+    <url-pattern>/api/*</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+</web-app>

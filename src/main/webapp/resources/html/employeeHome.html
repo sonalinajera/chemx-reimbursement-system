@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="0"/>
+  <title>Employee Homepage</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="/ChemX/resources/css/employee.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark nav-dark">
+    <div class="container-fluid nav-max">
+      <a class="navbar-brand nav-brand-lg" href="#">ChemX</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Employee</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+          </li>   
+        </ul>
+        <form class="d-flex">
+          <button class="btn btn-outline-light" type="submit">sign out</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <h1>ChemX Employee Reimbursement Portal</h1>
+  <h2 id="greeting"></h2>
+
+
+  <form id="newReimbursementForm">
+    <div class="row mb-3">
+       <label for="inputAmount" class="col-sm-4 col-form-label">Reimbursement Amount</label>
+      <div class="col-sm-8">
+        <small></small>
+        <input type="text" class="form-control" id="inputAmount" name="inputAmount">
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <label for="inputType" class="col-sm-4 col-form-label">Reimbursement
+        Type</label>
+      <div class="col-sm-8">
+        <small></small>
+        <select name="inputType" id="inputType" name="inputType" class="form-select"
+          aria-label="Default select example">
+          <option selected>Select a category</option>
+          <option value="1">Lodging</option>
+          <option value="2">Travel</option>
+          <option value="3">Food</option>
+          <option value="3">Other</option>
+
+        </select>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <label for="inputDescription" class="col-sm-4 col-form-label">Reimbursement
+        Description</label>
+      <div class="col-sm-8">
+        <small></small>
+        <textarea id="inputDescription" name="inputDescription" class="form-control"
+          aria-label="Reimbursement Description"></textarea>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+  <h2 id="userReimbursements">My pending reimbursements</h2>
+
+  <div class="accordion" id="accordionExample">
+    
+  </div>
+
+  <h2 id="pastHeading">View past reimbursement requests</h2>
+  <form id="pastReimbForm">
+    <small id="invalidInput"></small>
+   <div class="row mb-3">
+     <label for="reimbStatus" class="col-sm-4 col-form-label">Reimbursement
+       Status</label>
+     <div class="col-sm-8">
+       <select name="reimbStatus" id="reimbStatus" class="form-select"
+         aria-label="Default select example" required>
+         <option >Select type of reimbursement</option>
+         <option value="0">All</option>
+         <option value="2">Approved</option>
+         <option value="3">Declined</option>
+       </select>
+     </div>
+   </div>
+   <button type="submit" class="btn btn-primary">Search</button>
+  </form>
+  <div class="accordion" id="pastReimbDiv">
+  </div>
+
+
+
+  <script src="/ChemX/resources/js/landing.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

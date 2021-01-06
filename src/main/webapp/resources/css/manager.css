@@ -1,0 +1,88 @@
+body {
+  /* background: rgb(36,26,112);
+background: linear-gradient(156deg, rgba(36,26,112,1) 10%, rgba(34,25,108,1) 25%, rgba(27,16,95,1) 45%, rgba(27,16,95,1) 72%, rgba(27,16,95,1) 97%, rgba(24,13,91,1) 97%); */
+ 
+ background-image: url("/ChemX/resources/media/chemxBackground.jpg");
+ 
+ /* Full height */
+ height: 100%;
+
+ /* Center and scale the image nicely */
+ background-repeat:repeat; 
+ background-color:whitesmoke;
+ color: black;
+}
+/* nav stuff */
+.nav-dark {
+  font-size: larger; 
+  background-color: rgb(58, 41, 174);
+}
+
+.nav-brand-lg {
+  margin: 0 40px 0 10px; 
+  font-size: 40px
+}
+
+h1 {
+  text-align: center;
+  margin: 30px auto;
+}
+
+#greeting {
+  text-align: center;
+  margin: 20px auto 30px auto;
+}
+
+#userReimbursements { 
+  text-align: center;
+  margin: 10px auto;
+}
+
+#pastHeading {
+  text-align: center;
+  margin: 20px auto 
+}
+
+#newReimbursementForm, #pastReimbForm{
+  max-width: 90%;
+  margin: auto;
+}
+#pastReimbForm{
+  margin-bottom: 50px;
+}
+
+#accordionExample {
+  max-width: 90%;
+  margin: 50px auto;
+
+}
+
+#pastReimbDiv {
+  margin-bottom: 30px;
+}
+
+
+/* web constraints */
+
+@media all and (min-width: 600px) {
+  .nav-max {
+    max-width: 900px;
+    margin: auto
+  }
+
+
+#newReimbursementForm, #pastReimbForm{
+  max-width: 500px;
+    margin-bottom: 50px;
+    border: 1px solid #514c84;
+    border-radius: 15px;
+    box-shadow: 5px 10px 18px #29245b;
+    padding: 30px;
+}
+
+#accordionExample, #pastReimbDiv {
+  max-width: 500px;
+  margin: auto;
+}
+
+}
