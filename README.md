@@ -1,4 +1,4 @@
-# ChemX Reimbursement System
+i# ChemX Reimbursement System
 
 ## Project Description
 
@@ -46,9 +46,16 @@ To-do list:
 
 2) Run as project on Tomcat Server at localhost
 
-- Images of what it should look like
+A successful start up means you'll see this in your browser:
+![homepage view](./screenshots/homepage.png)
 
 ## Usage
 
-> Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+You'll need to set up a database with the following constraints.
+![homepage view](./screenshots/database.png)
+
+Once logged in, you should be able to update the JS files with your target url.
+
+You should be able to create, and read from the database. 
+
 
